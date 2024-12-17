@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket         = "tf-bucket23"
     region         = "us-east-1"
-    key            = "eks/terraform.tfstate"
+    key            = "eks/terraform.tfstate (S)"
     dynamodb_table = "tf-infra-table"
     encrypt        = true
   }
